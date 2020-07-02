@@ -1,9 +1,5 @@
 ---
 - name: Playbook to install Apache
-  hosts: localhost
-  pre_tasks:
-    - template:
-        src: templates/requirements.j2
-        dest: roles/requirements.yml
+  hosts: all
   roles:
     - jenkins-demo-role
