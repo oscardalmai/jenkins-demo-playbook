@@ -1,1 +1,2 @@
 - src: https://github.com/oscardalmai/jenkins-demo-role.git
+  version: "{{ branch }}"
