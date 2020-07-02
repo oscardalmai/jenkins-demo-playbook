@@ -1,2 +1,2 @@
-- src: https://github.com/oscardalmai/jenkins-demo-playbook.git
+- src: https://github.com/oscardalmai/jenkins-demo-role.git
   version: master
